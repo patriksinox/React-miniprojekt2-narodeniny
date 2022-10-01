@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: black;
+  box-sizing: border-box;
+}
+
+.fotka {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+section {
+  margin-top: 20px !important;
+  margin-bottom: 40px;
+  width: 400px !important;
+  background-color: white;
+  border-radius: 1%;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+}
+section h1 {
+  font-weight: 100;
+  margin: 20px;
+}
+.ramik {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  background-color: white;
+}
+.ramik div {
+  padding-left: 20px;
+}
